@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
-/* * {
+* {
 	padding: 0;
 	margin: 0;
 	font-family: sans-serif;
@@ -52,8 +52,8 @@ button[type="submit"] {
 }
 button[type="submit"]:hover {
     background-color: #007bff;
-} */
-form {
+}
+/* form {
 
 display: flex;
 
@@ -123,4 +123,4 @@ select[multiple] {
 
 height: 100px;
 
-}
+} */
