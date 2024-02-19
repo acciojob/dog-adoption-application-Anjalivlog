@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
-* {
+/* * {
 	padding: 0;
 	margin: 0;
 	font-family: sans-serif;
@@ -19,7 +19,6 @@ body {
 	color: white;
 }
 form {
-    /* background-color: #fff; */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -53,4 +52,75 @@ button[type="submit"] {
 }
 button[type="submit"]:hover {
     background-color: #007bff;
+} */
+form {
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+}
+
+div {
+
+margin: 10px 0;
+
+}
+
+label {
+
+display: inline-block;
+
+width: 200px;
+
+text-align: right;
+
+margin-right: 20px;
+
+}
+
+input[type=“text”],
+
+select {
+
+width: 200px;
+
+padding: 5px;
+
+border-radius: 5px;
+
+border: 1px solid #ccc;
+
+}
+
+input[type=“submit”] {
+
+margin-top: 20px;
+
+background-color: #4CAF50;
+
+color: white;
+
+padding: 10px;
+
+border: none;
+
+border-radius: 5px;
+
+cursor: pointer;
+
+}
+
+input[type=“submit”]:hover {
+
+background-color: #3e8e41;
+
+}
+
+select[multiple] {
+
+height: 100px;
+
 }
